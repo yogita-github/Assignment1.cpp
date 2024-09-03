@@ -1,0 +1,182 @@
+//Q1)Addition of 2 matrices?
+//#include<iostream>
+//using namespace std;
+//
+//int main()
+//{
+//	int arr[3][3];
+//	for(int i=0;i<=2;i++)
+//	{
+//		for(int j =0;j<=2;j++)
+//		{
+//			cin>>arr[i][j];
+//		}
+//		cout<<"\n";
+//	}
+//	for(int i=0;i<=2;i++)
+//	{
+//		for(int j =0;j<=2;j++)
+//		{
+//			cout<<arr[i][j];
+//		}
+//		cout<<"\n";
+//	}
+//	int arr2[3][3];
+//	for(int i=0;i<=2;i++)
+//	{
+//		for(int j =0;j<=2;j++)
+//		{
+//			cin>>arr2[i][j];
+//		}
+//		cout<<"\n";
+//	}
+//	for(int i=0;i<=2;i++)
+//	{
+//		for(int j =0;j<=2;j++)
+//		{
+//			cout<<arr2[i][j];
+//		}
+//		cout<<"\n";
+//	}
+//	for(int i=0;i<=2;i++)
+//	{
+//		for (int j =0;j<=2;j++)
+//		{
+//			int sum = 0;
+//			sum = arr[i][j]+arr2[i][j];
+//			cout<<sum<<" ";
+//		}
+//		cout<<"\n";
+//	}
+//	
+//}
+
+//Q2)transpose of a matrix(row->col,col->row)
+//#include<iostream>
+//using namespace std;
+//
+//int main()
+//{
+//	int arr[3][3];
+//	for(int i=0;i<=2;i++)
+//	{
+//		for(int j = 0;j<=2;j++)
+//		{
+//			cin>>arr[i][j];
+//		}
+//	}
+//	for(int i=0;i<=2;i++)
+//	{
+//		for(int j = 0;j<=2;j++)
+//		{
+//			cout<<arr[i][j];
+//		}
+//		cout<<"\n";
+//	}
+//	for(int i = 0;i<=2;i++)
+//	{
+//		for(int j = 0;j<=2;j++)
+//		{
+//			
+//			cout<<arr[j][i];
+//		}
+//		cout<<"\n";
+//	}
+//}
+//123
+//456
+//789
+//147
+//258
+//369
+
+//Q3)Square of all elements of 2d array?
+//#include<iostream>
+//using namespace std;
+//int main()
+//{
+//	int arr[3][3];
+//	int square;
+//	
+//	for(int i = 0;i<=2;i++)
+//	{
+//		for(int j = 0;j<=2;j++)
+//		{
+//			cin>>arr[i][j];
+//		}
+//	}
+//	for(int i = 0;i<=2;i++)
+//	{
+//		for(int j = 0;j<=2;j++)
+//		{
+//			cout<<arr[i][j];
+//		}
+//		cout<<"\n";
+//	}
+//	for(int i=0;i<=2;i++)
+//	{
+//		for(int j = 0;j<=2;j++)
+//		{
+//			
+//			square = arr[i][j] * arr[i][j];
+//			cout<<square<<" ";
+//		}
+//		cout<<"\n";
+//	}
+//}
+//123
+//456
+//789
+//1 4 9
+//16 25 36
+//49 64 81
+
+//Q4)Store details of 10 books in an array?
+//#include<iostream>
+//using namespace std;
+//class Book
+//{
+//  int id;
+//  string name;
+//  int price;
+//  string author;
+//  public:
+//    void getdata();
+//    void putdata();
+//};
+//void Book::getdata()
+//{
+//  cout << "Enter Id : ";
+//  cin >> id;
+//  cout << "Enter name : ";
+//  cin >> name;
+//  cout << "Enter price: ";
+//  cin >> price;
+//  cout << "Enter author: ";
+//  cin >> author;
+//}
+//void Book::putdata()
+//{
+//  cout << id << " ";
+//  cout << name << " ";
+//  cout << price << " ";
+//  cout << author << " ";
+//  cout << endl;
+//}
+//int main()
+//{
+// 
+//  Book bks[10];
+//  int i;
+//   
+//  
+//  for(i = 0; i < 10; i++)
+//    bks[i].getdata();
+//   
+//  cout << "Books Details - " << endl;
+//   
+// 
+//  for(i = 0; i < 10; i++)
+//    bks[i].putdata();
+//}
+
